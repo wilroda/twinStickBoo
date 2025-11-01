@@ -1,5 +1,537 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &150858787224691736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7220726163345463909}
+  - component: {fileID: 2645826033076090835}
+  - component: {fileID: 3597152424644511100}
+  - component: {fileID: 4393270568040373829}
+  - component: {fileID: 7537806791646704012}
+  - component: {fileID: 3676677683677014247}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7220726163345463909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 992387215196828129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2645826033076090835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3203f38d4afc6a4283618fa1df06ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "When (Spawned <= 0):\n          changes the X scale of object Graphics,
+    adding -15, scaled with time., and changes the Y scale of object Graphics, adding
+    -15, scaled with time..\n\nThis trigger will execute every single frame when
+    the conditions are true."
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 1
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 3597152424644511100}
+  continuous: 1
+  conditions:
+  - negate: 0
+    valueHandler: {fileID: 815296520400558488}
+    variable: {fileID: 0}
+    valueType: 0
+    tag: {fileID: 0}
+    tagCountRangeEnabled: 0
+    tagCountRange: 0
+    sourceTransform: {fileID: 0}
+    rigidBody: {fileID: 0}
+    axis: 0
+    probe: {fileID: 0}
+    movementPlatformer: {fileID: 0}
+    comparison: 2
+    value: 0
+    comparisonValueHandler: {fileID: 0}
+    comparisonVariable: {fileID: 0}
+    percentageCompare: 0
+    tile: {fileID: 0}
+    tileSet: {fileID: 0}
+    inventory:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    item: {fileID: 0}
+    equipment:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    resource:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+      resourceType: {fileID: 0}
+    questManager:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    quest: {fileID: 0}
+    dialogueKey: 
+  elseActions: []
+--- !u!114 &3597152424644511100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Changes the X scale of object Graphics, adding -15, scaled with time.,
+    and changes the Y scale of object Graphics, adding -15, scaled with time..
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions:
+  - negate: 0
+    valueHandler: {fileID: 0}
+    variable: {fileID: 0}
+    valueType: 15
+    tag: {fileID: 0}
+    tagCountRangeEnabled: 0
+    tagCountRange: 0
+    sourceTransform: {fileID: 992387215196828129}
+    rigidBody: {fileID: 0}
+    axis: 0
+    probe: {fileID: 0}
+    movementPlatformer: {fileID: 0}
+    comparison: 0
+    value: 0
+    comparisonValueHandler: {fileID: 0}
+    comparisonVariable: {fileID: 0}
+    percentageCompare: 0
+    tile: {fileID: 0}
+    tileSet: {fileID: 0}
+    inventory:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    item: {fileID: 0}
+    equipment:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    resource:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+      resourceType: {fileID: 0}
+    questManager:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    quest: {fileID: 0}
+    dialogueKey: 
+  target: {fileID: 8070690244810332799}
+  changeType: 2
+  xAxis: 1
+  positionX: {x: 0, y: 0}
+  deltaX: {x: -15, y: -15}
+  yAxis: 1
+  positionY: {x: 0, y: 0}
+  deltaY: {x: -15, y: -15}
+  scaleWithTime: 1
+--- !u!114 &4393270568040373829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3203f38d4afc6a4283618fa1df06ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at
+    the position of this object (Spawn)\n          sets variable Spawned to 1\n\nThis
+    trigger will execute every single frame when the conditions are true."
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 0
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 7537806791646704012}
+  - delay: 0
+    action: {fileID: 3676677683677014247}
+  continuous: 1
+  conditions:
+  - negate: 0
+    valueHandler: {fileID: 0}
+    variable: {fileID: 0}
+    valueType: 30
+    tag: {fileID: 0}
+    tagCountRangeEnabled: 0
+    tagCountRange: 0
+    sourceTransform: {fileID: 8070690244810332799}
+    rigidBody: {fileID: 0}
+    axis: 0
+    probe: {fileID: 0}
+    movementPlatformer: {fileID: 0}
+    comparison: 1
+    value: 0
+    comparisonValueHandler: {fileID: 0}
+    comparisonVariable: {fileID: 0}
+    percentageCompare: 0
+    tile: {fileID: 0}
+    tileSet: {fileID: 0}
+    inventory:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    item: {fileID: 0}
+    equipment:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    resource:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+      resourceType: {fileID: 0}
+    questManager:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    quest: {fileID: 0}
+    dialogueKey: 
+  elseActions: []
+--- !u!114 &7537806791646704012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Spawns prefab enemy_chaser at the position of this object (Spawn)
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  prefabObject: {fileID: 6589185678901082505, guid: 928849849f92446b9be371016f9e70cb, type: 3}
+  spawnPosition: 1
+  targetPosition: {fileID: 0}
+  targetTag: {fileID: 0}
+  setParent: 0
+--- !u!114 &3676677683677014247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150858787224691736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb749f9fa0d36840b27121330707a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Sets variable Spawned to 1
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  valueHandler: {fileID: 815296520400558488}
+  variable: {fileID: 0}
+  operation: 1
+  changeValue: 1
+  changeValueHandler: {fileID: 0}
+  changeVariable: {fileID: 0}
+  scaleWithTime: 0
+--- !u!1 &655707400932918959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133366175703964267}
+  - component: {fileID: 7751699923652072529}
+  - component: {fileID: 2624673597313878570}
+  - component: {fileID: 1212310458802428136}
+  - component: {fileID: 1274646149978927843}
+  - component: {fileID: 1008999338870281562}
+  m_Layer: 0
+  m_Name: SpawnReset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133366175703964267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 992387215196828129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7751699923652072529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c477183935167543b8555b000ac6ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "Every frame:\n          sets variable Spawned to 0\n          set
+    the X scale of object Graphics to 22, and set the Y scale of object Graphics
+    to 22.\n          enables trigger Spawn.On Condition\n"
+  description: 
+  enableTrigger: 0
+  allowRetrigger: 0
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 1212310458802428136}
+  - delay: 0
+    action: {fileID: 1274646149978927843}
+  - delay: 0
+    action: {fileID: 1008999338870281562}
+--- !u!114 &2624673597313878570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46216fa097ecb754babda0f26d640422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "Every 5 seconds, trigger the actions::\n          sets variable
+    Spawned to 0\n          set the X scale of object Graphics to 22, and set the
+    Y scale of object Graphics to 22.\n          enables trigger Spawn.On Condition\n"
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 1
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 1212310458802428136}
+  - delay: 0
+    action: {fileID: 1274646149978927843}
+  - delay: 0
+    action: {fileID: 1008999338870281562}
+  startTriggered: 0
+  initialDelayEnable: 0
+  initialDelay: {x: 5, y: 5}
+  timeInterval: {x: 5, y: 5}
+--- !u!114 &1212310458802428136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb749f9fa0d36840b27121330707a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Sets variable Spawned to 0
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  valueHandler: {fileID: 815296520400558488}
+  variable: {fileID: 0}
+  operation: 1
+  changeValue: 0
+  changeValueHandler: {fileID: 0}
+  changeVariable: {fileID: 0}
+  scaleWithTime: 0
+--- !u!114 &1274646149978927843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Set the X scale of object Graphics to 22, and set the Y scale of
+    object Graphics to 22.
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: {fileID: 8070690244810332799}
+  changeType: 2
+  xAxis: 2
+  positionX: {x: 22, y: 22}
+  deltaX: {x: 0, y: 0}
+  yAxis: 2
+  positionY: {x: 22, y: 22}
+  deltaY: {x: 0, y: 0}
+  scaleWithTime: 0
+--- !u!114 &1008999338870281562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655707400932918959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c8e5ca8f3d04141b3e3ca48a91ebb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Enables trigger Spawn.On Condition
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: {fileID: 4393270568040373829}
+  state: 0
+--- !u!1 &1492349980333995953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1562643546033111753}
+  - component: {fileID: 815296520400558488}
+  m_Layer: 0
+  m_Name: Spawned
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1562643546033111753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492349980333995953}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 992387215196828129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &815296520400558488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492349980333995953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c124f990a067b478caf900b6cb6d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: 
+  description: 
+  type: 1
+  currentValue: 0
+  defaultValue: 0
+  hasLimits: 1
+  minValue: 0
+  maxValue: 1
 --- !u!1 &4839429112636562989
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,10 +715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992387215196828129}
-  - component: {fileID: 2130518065406364253}
-  - component: {fileID: 6641452439823643283}
-  - component: {fileID: 5270796802090090776}
-  - component: {fileID: 8797859321354510794}
   m_Layer: 0
   m_Name: enemy_spanwer
   m_TagString: Untagged
@@ -207,245 +735,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7220726163345463909}
+  - {fileID: 1562643546033111753}
+  - {fileID: 133366175703964267}
   - {fileID: 8070690244810332799}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2130518065406364253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7799120101346117157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c477183935167543b8555b000ac6ec6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "If (Graphics.ry > 0) and every frame:\n          changes the X scale
-    of object Graphics, adding -15, scaled with time., and changes the Y scale of
-    object Graphics, adding -15, scaled with time..\n"
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 1
-  hasPreconditions: 1
-  preConditions:
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 30
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 8070690244810332799}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 0}
-    comparison: 3
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-    inventory:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    item: {fileID: 0}
-    equipment:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    resource:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-      resourceType: {fileID: 0}
-    questManager:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    quest: {fileID: 0}
-    dialogueKey: 
-  actions:
-  - delay: 0
-    action: {fileID: 6641452439823643283}
---- !u!114 &6641452439823643283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7799120101346117157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ef5f9e0d47611f4da64c31fc24a95e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Changes the X scale of object Graphics, adding -15, scaled with time.,
-    and changes the Y scale of object Graphics, adding -15, scaled with time..
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions:
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 15
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 992387215196828129}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 0}
-    comparison: 0
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-    inventory:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    item: {fileID: 0}
-    equipment:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    resource:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-      resourceType: {fileID: 0}
-    questManager:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    quest: {fileID: 0}
-    dialogueKey: 
-  target: {fileID: 8070690244810332799}
-  changeType: 2
-  xAxis: 1
-  positionX: {x: 0, y: 0}
-  deltaX: {x: -15, y: -15}
-  yAxis: 1
-  positionY: {x: 0, y: 0}
-  deltaY: {x: -15, y: -15}
-  scaleWithTime: 1
---- !u!114 &5270796802090090776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7799120101346117157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3203f38d4afc6a4283618fa1df06ecc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at
-    the position of this object (enemy_spanwer (1))\n\nThis trigger will execute
-    every single frame when the conditions are true."
-  description: 
-  enableTrigger: 1
-  allowRetrigger: 0
-  hasPreconditions: 0
-  preConditions: []
-  actions:
-  - delay: 0
-    action: {fileID: 8797859321354510794}
-  continuous: 1
-  conditions:
-  - negate: 0
-    valueHandler: {fileID: 0}
-    variable: {fileID: 0}
-    valueType: 30
-    tag: {fileID: 0}
-    tagCountRangeEnabled: 0
-    tagCountRange: 0
-    sourceTransform: {fileID: 8070690244810332799}
-    rigidBody: {fileID: 0}
-    axis: 0
-    probe: {fileID: 0}
-    movementPlatformer: {fileID: 0}
-    comparison: 1
-    value: 0
-    comparisonValueHandler: {fileID: 0}
-    comparisonVariable: {fileID: 0}
-    percentageCompare: 0
-    tile: {fileID: 0}
-    tileSet: {fileID: 0}
-    inventory:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    item: {fileID: 0}
-    equipment:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    resource:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-      resourceType: {fileID: 0}
-    questManager:
-      type: 0
-      tag: {fileID: 0}
-      obj: {fileID: 0}
-      flags: 0
-    quest: {fileID: 0}
-    dialogueKey: 
-  elseActions: []
---- !u!114 &8797859321354510794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7799120101346117157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
-    (1))
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  prefabObject: {fileID: 6589185678901082505, guid: 928849849f92446b9be371016f9e70cb, type: 3}
-  spawnPosition: 1
-  targetPosition: {fileID: 0}
-  targetTag: {fileID: 0}
-  setParent: 0
 --- !u!1 &8466311649741188768
 GameObject:
   m_ObjectHideFlags: 0
