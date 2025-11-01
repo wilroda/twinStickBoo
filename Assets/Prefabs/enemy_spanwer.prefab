@@ -364,8 +364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at
-    the position of this object (spanwer)\n\nThis trigger will execute every single
-    frame when the conditions are true."
+    the position of this object (enemy_spanwer (1))\n\nThis trigger will execute
+    every single frame when the conditions are true."
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -433,7 +433,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Spawns prefab enemy_chaser at the position of this object (Spawner)
+  _explanation: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+    (1))
   description: 
   enableAction: 1
   hasTags: 0

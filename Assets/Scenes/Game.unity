@@ -119,6 +119,142 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &69138269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (2))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (2))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+--- !u!1001 &234198394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (3))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (3))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
 --- !u!1 &411172797
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,12 +265,17 @@ GameObject:
   m_Component:
   - component: {fileID: 411172798}
   - component: {fileID: 411172804}
+  - component: {fileID: 411172805}
   - component: {fileID: 411172802}
   - component: {fileID: 411172803}
   - component: {fileID: 411172800}
   - component: {fileID: 411172801}
-  m_Layer: 0
-  m_Name: Player
+  - component: {fileID: 411172807}
+  - component: {fileID: 411172808}
+  - component: {fileID: 411172809}
+  - component: {fileID: 411172806}
+  m_Layer: 10
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +342,7 @@ MonoBehaviour:
     When the character is moving to the left, the sprite renderer will
     be flipped.
 
-    Some values will be set on animator Player:
+    Some values will be set on animator player:
 
     Horizontal
     velocity will be set to parameter Horizontal Velocity.
@@ -348,13 +489,145 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.38}
   m_Size: {x: 0.3, y: 0.75}
   m_Direction: 0
+--- !u!50 &411172805
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411172797}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &411172806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411172797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Destroys this object
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: 0
+  targetObject: {fileID: 0}
+  tags: []
+--- !u!114 &411172807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411172797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "When a collision with a trigger with tags [Enemy] starts:\n         
+    spawns prefab particles_blood at the position of this object (player)\n         
+    shakes the object [Main Camera] with intensity 0.5 for 0.5 seconds\n         
+    destroys this object\n"
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 0
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 411172808}
+  - delay: 0
+    action: {fileID: 411172809}
+  - delay: 0
+    action: {fileID: 411172806}
+  isTrigger: 1
+  eventType: 0
+  tags:
+  - {fileID: 11400000, guid: c98d0affc5d3641828b866ddf6aa73f0, type: 2}
+--- !u!114 &411172808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411172797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Spawns prefab particles_blood at the position of this object (player)
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  prefabObject: {fileID: 3600709106173862240, guid: 22e6ce45ef08444258a7733669220916, type: 3}
+  spawnPosition: 1
+  targetPosition: {fileID: 0}
+  targetTag: {fileID: 0}
+  setParent: 0
+--- !u!114 &411172809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411172797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901970b618aa1c4489b6c7410f963e95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Shakes the object [Main Camera] with intensity 0.5 for 0.5 seconds
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  targetTag: {fileID: 0}
+  targetObject: {fileID: 519420032}
+  strength: 0.5
+  duration: 0.5
 --- !u!1 &467196427
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467196428}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -561,7 +834,7 @@ GameObject:
   - component: {fileID: 573688487}
   - component: {fileID: 573688489}
   - component: {fileID: 573688488}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Spawns prefab Bullet at the position of Muzzle
+  _explanation: Spawns prefab player_bullet at the position of Muzzle
   description: 
   enableAction: 1
   hasTags: 0
@@ -712,8 +985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When button Fire is held:\n          spawns prefab Bullet at the
-    position of Muzzle\n"
+  _explanation: "When button Fire is held (this can only happen every 0.1 seconds):\n         
+    spawns prefab player_bullet at the position of Muzzle\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -729,8 +1002,8 @@ MonoBehaviour:
   deadArea: {x: -0.2, y: 0.2}
   continuous: 1
   negate: 0
-  useCooldown: 0
-  cooldown: 1
+  useCooldown: 1
+  cooldown: 0.1
   elseActions: []
 --- !u!1 &619394800
 GameObject:
@@ -990,6 +1263,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1000994941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (5))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (5))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
 --- !u!1 &1221690055
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1221690056}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,6 +1362,266 @@ Transform:
   m_Children: []
   m_Father: {fileID: 411172798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1267709605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267709608}
+  - component: {fileID: 1267709607}
+  - component: {fileID: 1267709606}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1267709606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267709605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12253cfd341aa46a3a6fcba7709af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Switches to scene Game
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  sceneName: Game
+--- !u!114 &1267709607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267709605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3203f38d4afc6a4283618fa1df06ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "When (ObjectsWithTag(Player) == 0):\n At 2 seconds, \n         
+    switches to scene Game\n\nThis trigger will execute every single frame when the
+    conditions are true."
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 0
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 2
+    action: {fileID: 1267709606}
+  continuous: 1
+  conditions:
+  - negate: 0
+    valueHandler: {fileID: 0}
+    variable: {fileID: 0}
+    valueType: 1
+    tag: {fileID: 11400000, guid: 891e686f8948d4db898557caf072069c, type: 2}
+    tagCountRangeEnabled: 0
+    tagCountRange: 0
+    sourceTransform: {fileID: 0}
+    rigidBody: {fileID: 0}
+    axis: 0
+    probe: {fileID: 0}
+    movementPlatformer: {fileID: 0}
+    comparison: 0
+    value: 0
+    comparisonValueHandler: {fileID: 0}
+    comparisonVariable: {fileID: 0}
+    percentageCompare: 0
+    tile: {fileID: 0}
+    tileSet: {fileID: 0}
+    inventory:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    item: {fileID: 0}
+    equipment:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    resource:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+      resourceType: {fileID: 0}
+    questManager:
+      type: 0
+      tag: {fileID: 0}
+      obj: {fileID: 0}
+      flags: 0
+    quest: {fileID: 0}
+    dialogueKey: 
+  elseActions: []
+--- !u!4 &1267709608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267709605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1284845394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (8))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (8))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+--- !u!1001 &1579397093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (4))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (4))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
 --- !u!1 &1590722285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,7 +1632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590722286}
   - component: {fileID: 1590722287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,6 +1710,199 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1634094191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (7))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (7))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+--- !u!1001 &1879084467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+--- !u!1001 &2079216008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992387215196828129, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270796802090090776, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: "When (Graphics.ry < 0):\n          spawns prefab enemy_chaser at the
+        position of this object (enemy_spanwer (6))\n\nThis trigger will execute
+        every single frame when the conditions are true."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799120101346117157, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: m_Name
+      value: enemy_spanwer (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797859321354510794, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
+      propertyPath: _explanation
+      value: Spawns prefab enemy_chaser at the position of this object (enemy_spanwer
+        (6))
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c5156876392e44f09f3a1e5f202f746, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1118,3 +1912,12 @@ SceneRoots:
   - {fileID: 682293749}
   - {fileID: 864319111}
   - {fileID: 411172798}
+  - {fileID: 1267709608}
+  - {fileID: 1879084467}
+  - {fileID: 69138269}
+  - {fileID: 234198394}
+  - {fileID: 1579397093}
+  - {fileID: 1000994941}
+  - {fileID: 2079216008}
+  - {fileID: 1634094191}
+  - {fileID: 1284845394}

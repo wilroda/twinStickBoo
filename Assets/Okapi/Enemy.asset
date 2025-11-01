@@ -10,5 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d67469e53046b9b479afab539d5b8697, type: 3}
-  m_Name: Player
+  m_Name: Enemy
   m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: '
+
+    ----------------
+
+    Defines hypertag Enemy'
+  description: 
