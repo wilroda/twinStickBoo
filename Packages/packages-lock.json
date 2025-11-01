@@ -313,14 +313,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3de5dfbe324cc5d94762af9010511e0755ebe2d7"
+      "hash": "5c684247cc5f5163502f849b7208029cc27b65a8"
     },
     "com.videojogoslusofona.okapikit.samples": {
       "version": "https://github.com/VideojogosLusofona/OkapiKit.git#samples",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "545057addfff01765cc426330c80c598cfd0dc4c"
+      "hash": "e940a4bb485dbcf198047e923225a8725ce16666"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
