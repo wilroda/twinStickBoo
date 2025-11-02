@@ -631,7 +631,7 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "Collision with Bullet\n----------------\nWhen a collision with a
     trigger with tags [Bullet] starts:\n          subtracts 1 from variable Health\n         
-    flashes renderer target on Graphics with a color for 0.1 seconds\n"
+    flashes renderer target on GhostVisuals with a color for 0.1 seconds\n"
   description: Collision with Bullet
   enableTrigger: 1
   allowRetrigger: 1
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Flashes renderer target on Graphics with a color for 0.1 seconds
+  _explanation: Flashes renderer target on GhostVisuals with a color for 0.1 seconds
   description: 
   enableAction: 1
   hasTags: 0
@@ -696,7 +696,7 @@ MonoBehaviour:
   targetRenderer:
     type: 1
     tag: {fileID: 0}
-    obj: {fileID: 4547172801750905059}
+    obj: {fileID: 5677367647253391673}
     flags: 0
   mode: 0
   color:
@@ -980,13 +980,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6274303696759593027, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 00203c5c3cc86ce468b227e90799daea, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5107346879805445687, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1033304369783785446}
   m_SourcePrefab: {fileID: 100100000, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
+--- !u!212 &5677367647253391673 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6274303696759593027, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
+  m_PrefabInstance: {fileID: 1862451972961202554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5681792634539462945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6269303699381952603, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
   m_PrefabInstance: {fileID: 1862451972961202554}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6861289964585559885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5107346879805445687, guid: 2f4e92553ab27fd4ebc8bfc04cd8a1de, type: 3}
+  m_PrefabInstance: {fileID: 1862451972961202554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1033304369783785446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6861289964585559885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f82c3a66e0354f4abdca823b87e97cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: This is a system linked to sprite visual effects. This can be used
+    with actions such as Flash.
+  description: 
+  effects: 0
+  palette: {fileID: 0}
+  inverseFactor: 0
+  flashColor: {r: 1, g: 1, b: 1, a: 0}
+  outlineWidth: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  createMaterialCopy: 0
