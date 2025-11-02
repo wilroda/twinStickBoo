@@ -3204,8 +3204,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278241791
+  m_fontColor: {r: 1, g: 0.7879015, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13285,6 +13285,7 @@ GameObject:
   - component: {fileID: 1267709609}
   - component: {fileID: 1267709607}
   - component: {fileID: 1267709606}
+  - component: {fileID: 1267709611}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -13439,7 +13440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "Reset Score\n\n----------------\nWhen this object is created:\n         
-    resets variable Score\n"
+    resets variable Score\n          plays sound gameStart at volume 1 and at pitch
+    1\n"
   description: 'Reset Score
 
 '
@@ -13450,6 +13452,31 @@ MonoBehaviour:
   actions:
   - delay: 0
     action: {fileID: 1267709609}
+  - delay: 0
+    action: {fileID: 1267709611}
+--- !u!114 &1267709611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267709605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d16681200cf841a49e1df59f6076f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Plays sound gameStart at volume 1 and at pitch 1
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  clip: {fileID: 8300000, guid: 707f3ab4928cb4314a415d7190c40803, type: 3}
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
 --- !u!1 &1268781096
 GameObject:
   m_ObjectHideFlags: 0
