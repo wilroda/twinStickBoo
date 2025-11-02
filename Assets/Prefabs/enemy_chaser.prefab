@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 1477214784632549080}
   - component: {fileID: 6697511522131336086}
   - component: {fileID: 7281863619263522141}
+  - component: {fileID: 4917799583660331227}
   - component: {fileID: 1811239073718697351}
   m_Layer: 0
   m_Name: Die
@@ -869,7 +870,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "Every frame:\n          spawns prefab particles_blood at the position
-    of this object (Die)\n          Destroys object enemy_chaser\n"
+    of this object (Die)\n          plays sound ghostKill at volume 1 and a pitch
+    in the range [0.8,1.2]\n          Destroys object enemy_chaser\n"
   description: 
   enableTrigger: 0
   allowRetrigger: 0
@@ -878,6 +880,8 @@ MonoBehaviour:
   actions:
   - delay: 0
     action: {fileID: 7281863619263522141}
+  - delay: 0
+    action: {fileID: 4917799583660331227}
   - delay: 0
     action: {fileID: 1811239073718697351}
 --- !u!114 &7281863619263522141
@@ -905,6 +909,29 @@ MonoBehaviour:
   targetPosition: {fileID: 0}
   targetTag: {fileID: 0}
   setParent: 0
+--- !u!114 &4917799583660331227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8926337322437977908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d16681200cf841a49e1df59f6076f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: 'Plays sound ghostKill at volume 1 and a pitch in the range [0.8,1.2]'
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  clip: {fileID: 8300000, guid: 04deb959cce2c4eec8665f8efc77d8d7, type: 3}
+  volume: {x: 1, y: 1}
+  pitch: {x: 0.8, y: 1.2}
 --- !u!114 &1811239073718697351
 MonoBehaviour:
   m_ObjectHideFlags: 0
