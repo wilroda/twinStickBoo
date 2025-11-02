@@ -50,7 +50,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -170,7 +170,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 681084683cfbd8f4fb40e1530d7e4fca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.43137255}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   _explanation: "Select randomly between the following actions:\n  1. sets GhostVisuals's
     sprite color to RGBA(1.000, 1.000, 1.000, 1.000) (25%)\n  2. sets GhostVisuals's
     sprite color to RGBA(1.000, 0.000, 0.000, 1.000) (25%)\n  3. sets GhostVisuals's
-    sprite color to RGBA(0.000, 1.000, 0.000, 1.000) (25%)\n  4. sets GhostVisuals's
+    sprite color to RGBA(0.997, 1.000, 0.000, 1.000) (25%)\n  4. sets GhostVisuals's
     sprite color to RGBA(0.000, 0.000, 1.000, 1.000) (25%)"
   description: 
   enableAction: 1
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Sets GhostVisuals's sprite color to RGBA(0.000, 1.000, 0.000, 1.000)
+  _explanation: Sets GhostVisuals's sprite color to RGBA(0.997, 1.000, 0.000, 1.000)
   description: 
   enableAction: 1
   hasTags: 0
@@ -286,7 +286,7 @@ MonoBehaviour:
   target: {fileID: 6274303696759593027}
   changeType: 1
   sprite: {fileID: 21300000, guid: 681084683cfbd8f4fb40e1530d7e4fca, type: 3}
-  color: {r: 0, g: 1, b: 0, a: 1}
+  color: {r: 0.99737024, g: 1, b: 0, a: 1}
   boolState: 0
 --- !u!114 &7119988313218569804
 MonoBehaviour:
@@ -330,7 +330,7 @@ MonoBehaviour:
     the following actions:\n              1. sets GhostVisuals's sprite color to
     RGBA(1.000, 1.000, 1.000, 1.000) (25%)\n              2. sets GhostVisuals's
     sprite color to RGBA(1.000, 0.000, 0.000, 1.000) (25%)\n              3. sets
-    GhostVisuals's sprite color to RGBA(0.000, 1.000, 0.000, 1.000) (25%)\n             
+    GhostVisuals's sprite color to RGBA(0.997, 1.000, 0.000, 1.000) (25%)\n             
     4. sets GhostVisuals's sprite color to RGBA(0.000, 0.000, 1.000, 1.000) (25%)\n"
   description: 
   enableTrigger: 1
@@ -379,7 +379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6946659339376112076
 Transform:
   m_ObjectHideFlags: 0
