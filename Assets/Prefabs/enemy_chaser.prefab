@@ -834,6 +834,7 @@ GameObject:
   - component: {fileID: 7281863619263522141}
   - component: {fileID: 4917799583660331227}
   - component: {fileID: 1811239073718697351}
+  - component: {fileID: 4288380394316453155}
   m_Layer: 0
   m_Name: Die
   m_TagString: Untagged
@@ -871,7 +872,8 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "Every frame:\n          spawns prefab particles_ecto-plasm at the
     position of this object (Die)\n          plays sound ghostKill at volume 1 and
-    a pitch in the range [0.8,1.2]\n          Destroys object enemy_chaser\n"
+    a pitch in the range [0.8,1.2]\n          spawns prefab ghostDeathAnimation at
+    the position of this object (Die)\n          Destroys object enemy_chaser\n"
   description: 
   enableTrigger: 0
   allowRetrigger: 0
@@ -882,6 +884,8 @@ MonoBehaviour:
     action: {fileID: 7281863619263522141}
   - delay: 0
     action: {fileID: 4917799583660331227}
+  - delay: 0
+    action: {fileID: 4288380394316453155}
   - delay: 0
     action: {fileID: 1811239073718697351}
 --- !u!114 &7281863619263522141
@@ -956,6 +960,32 @@ MonoBehaviour:
   target: 3
   targetObject: {fileID: 6589185678901082505}
   tags: []
+--- !u!114 &4288380394316453155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8926337322437977908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Spawns prefab ghostDeathAnimation at the position of this object
+    (Die)
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  prefabObject: {fileID: 347894594871767147, guid: 55564c94ead8749889d730c7259e9607, type: 3}
+  spawnPosition: 1
+  targetPosition: {fileID: 0}
+  targetTag: {fileID: 0}
+  setParent: 0
 --- !u!1001 &1862451972961202554
 PrefabInstance:
   m_ObjectHideFlags: 0
