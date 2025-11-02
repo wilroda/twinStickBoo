@@ -869,9 +869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "Every frame:\n          spawns prefab particles_blood at the position
-    of this object (Die)\n          plays sound ghostKill at volume 1 and a pitch
-    in the range [0.8,1.2]\n          Destroys object enemy_chaser\n"
+  _explanation: "Every frame:\n          spawns prefab particles_ecto-plasm at the
+    position of this object (Die)\n          plays sound ghostKill at volume 1 and
+    a pitch in the range [0.8,1.2]\n          Destroys object enemy_chaser\n"
   description: 
   enableTrigger: 0
   allowRetrigger: 0
@@ -897,14 +897,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Spawns prefab particles_blood at the position of this object (Die)
+  _explanation: Spawns prefab particles_ecto-plasm at the position of this object
+    (Die)
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  prefabObject: {fileID: 3600709106173862240, guid: 22e6ce45ef08444258a7733669220916, type: 3}
+  prefabObject: {fileID: 3600709106173862240, guid: d6b89b53ab40d400c8700638a39220aa, type: 3}
   spawnPosition: 1
   targetPosition: {fileID: 0}
   targetTag: {fileID: 0}
