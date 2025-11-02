@@ -100,7 +100,11 @@ GameObject:
   - component: {fileID: 20708940497705280}
   - component: {fileID: 3859292345970565147}
   - component: {fileID: 1668332015759241876}
+  - component: {fileID: 7667683973999930976}
   - component: {fileID: 1070194365718563415}
+  - component: {fileID: 1420978441805386894}
+  - component: {fileID: 6989018357176144036}
+  - component: {fileID: 4281468912230495342}
   m_Layer: 11
   m_Name: player_bullet
   m_TagString: Untagged
@@ -267,9 +271,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When a collision with a trigger with tags [Enemy,Level] starts:\n         
+  _explanation: "When a collision with a trigger with tags [Enemy] starts:\n         
     spawns prefab particles_bullets at the position of this object (player_bullet)\n         
-    destroys this object\n"
+    plays sound arrowHit with a volume in the range [0.5,1] and a pitch in the range
+    [0.5,0.8]\n          destroys this object\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -279,12 +284,13 @@ MonoBehaviour:
   - delay: 0
     action: {fileID: 1668332015759241876}
   - delay: 0
+    action: {fileID: 7667683973999930976}
+  - delay: 0
     action: {fileID: 1070194365718563415}
   isTrigger: 1
   eventType: 0
   tags:
   - {fileID: 11400000, guid: c98d0affc5d3641828b866ddf6aa73f0, type: 2}
-  - {fileID: 11400000, guid: 87545f439931e452d8238c1e949ff00a, type: 2}
 --- !u!114 &1668332015759241876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,7 +316,111 @@ MonoBehaviour:
   targetPosition: {fileID: 0}
   targetTag: {fileID: 0}
   setParent: 0
+--- !u!114 &7667683973999930976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370586687440505673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d16681200cf841a49e1df59f6076f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: 'Plays sound arrowHit with a volume in the range [0.5,1] and a pitch
+    in the range [0.5,0.8]'
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  clip: {fileID: 8300000, guid: 62157b93b314e4ae6ae81e852b81b672, type: 3}
+  volume: {x: 0.5, y: 1}
+  pitch: {x: 0.5, y: 0.8}
 --- !u!114 &1070194365718563415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370586687440505673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75877c0562c0e49a1475541c319262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Destroys this object
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  target: 0
+  targetObject: {fileID: 0}
+  tags: []
+--- !u!114 &1420978441805386894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370586687440505673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b66a51b7fe64c4390ac471b7df316b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: "When a collision with a trigger with tags [Level] starts:\n         
+    spawns prefab particles_bullets at the position of this object (player_bullet)\n         
+    plays sound arrowHit with a volume in the range [0.2,0.3] and a pitch in the
+    range [1,1.5]\n          destroys this object\n"
+  description: 
+  enableTrigger: 1
+  allowRetrigger: 1
+  hasPreconditions: 0
+  preConditions: []
+  actions:
+  - delay: 0
+    action: {fileID: 1668332015759241876}
+  - delay: 0
+    action: {fileID: 6989018357176144036}
+  - delay: 0
+    action: {fileID: 4281468912230495342}
+  isTrigger: 1
+  eventType: 0
+  tags:
+  - {fileID: 11400000, guid: 87545f439931e452d8238c1e949ff00a, type: 2}
+--- !u!114 &6989018357176144036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370586687440505673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d16681200cf841a49e1df59f6076f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: 'Plays sound arrowHit with a volume in the range [0.2,0.3] and a
+    pitch in the range [1,1.5]'
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  clip: {fileID: 8300000, guid: 62157b93b314e4ae6ae81e852b81b672, type: 3}
+  volume: {x: 0.2, y: 0.3}
+  pitch: {x: 1, y: 1.5}
+--- !u!114 &4281468912230495342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
