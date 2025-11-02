@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 527145486328147450}
   - component: {fileID: 20708940497705280}
   - component: {fileID: 3859292345970565147}
+  - component: {fileID: 1668332015759241876}
   - component: {fileID: 1070194365718563415}
   m_Layer: 11
   m_Name: player_bullet
@@ -153,7 +154,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -266,7 +267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When a collision with a trigger with tags [Enemy] starts:\n         
+  _explanation: "When a collision with a trigger with tags [Enemy,Level] starts:\n         
+    spawns prefab particles_bullets at the position of this object (player_bullet)\n         
     destroys this object\n"
   description: 
   enableTrigger: 1
@@ -275,11 +277,39 @@ MonoBehaviour:
   preConditions: []
   actions:
   - delay: 0
+    action: {fileID: 1668332015759241876}
+  - delay: 0
     action: {fileID: 1070194365718563415}
   isTrigger: 1
   eventType: 0
   tags:
   - {fileID: 11400000, guid: c98d0affc5d3641828b866ddf6aa73f0, type: 2}
+  - {fileID: 11400000, guid: 87545f439931e452d8238c1e949ff00a, type: 2}
+--- !u!114 &1668332015759241876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370586687440505673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: Spawns prefab particles_bullets at the position of this object (player_bullet)
+  description: 
+  enableAction: 1
+  hasTags: 0
+  actionTags: []
+  hasConditions: 0
+  actionConditions: []
+  prefabObject: {fileID: 3600709106173862240, guid: df5b0e86109eb4669924b5f7caf183ac, type: 3}
+  spawnPosition: 1
+  targetPosition: {fileID: 0}
+  targetTag: {fileID: 0}
+  setParent: 0
 --- !u!114 &1070194365718563415
 MonoBehaviour:
   m_ObjectHideFlags: 0
