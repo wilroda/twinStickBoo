@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6108904706870171219}
   m_Layer: 6
-  m_Name: ghostDeathAnimation
+  m_Name: ghost_death_animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
