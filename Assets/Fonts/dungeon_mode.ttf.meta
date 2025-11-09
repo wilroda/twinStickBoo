@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 374dda9a25dba4b95b29bb352d072ec7
+guid: b273b86e2c42a7943a5d6ff15d44239a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Press Start 2P
+  - Dungeon Mode
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

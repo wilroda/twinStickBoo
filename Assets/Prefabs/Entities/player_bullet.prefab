@@ -273,7 +273,7 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "When a collision with a trigger with tags [Enemy] starts:\n         
     spawns prefab particles_bullets at the position of this object (player_bullet)\n         
-    plays sound ghostHit with a volume in the range [0.5,1] and a pitch in the range
+    plays sound ghost_hit with a volume in the range [0.5,1] and a pitch in the range
     [0.5,0.8]\n          destroys this object\n"
   description: 
   enableTrigger: 1
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: 'Plays sound ghostHit with a volume in the range [0.5,1] and a pitch
+  _explanation: 'Plays sound ghost_hit with a volume in the range [0.5,1] and a pitch
     in the range [0.5,0.8]'
   description: 
   enableAction: 1
@@ -378,8 +378,8 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "When a collision with a trigger with tags [Level] starts:\n         
     spawns prefab particles_bullets at the position of this object (player_bullet)\n         
-    plays sound arrowHit with a volume in the range [0.2,0.3] and a pitch in the
-    range [1,1.5]\n          destroys this object\n"
+    plays sound arrow_hit at volume 0.5 and a pitch in the range [1,1.5]\n         
+    destroys this object\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -409,8 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: 'Plays sound arrowHit with a volume in the range [0.2,0.3] and a
-    pitch in the range [1,1.5]'
+  _explanation: 'Plays sound arrow_hit at volume 0.5 and a pitch in the range [1,1.5]'
   description: 
   enableAction: 1
   hasTags: 0
@@ -418,7 +417,7 @@ MonoBehaviour:
   hasConditions: 0
   actionConditions: []
   clip: {fileID: 8300000, guid: 62157b93b314e4ae6ae81e852b81b672, type: 3}
-  volume: {x: 0.2, y: 0.3}
+  volume: {x: 0.5, y: 0.5}
   pitch: {x: 1, y: 1.5}
 --- !u!114 &4281468912230495342
 MonoBehaviour:
