@@ -22,4 +22,5 @@ public class Restart : MonoBehaviour
         // Reset Pause
         Time.timeScale = 1;
     }
+    
 }
